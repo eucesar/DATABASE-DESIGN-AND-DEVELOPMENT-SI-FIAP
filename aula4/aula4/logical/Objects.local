@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E0E8E959-A7FE-5D1B-6697-900EB51AB955" name="categoria_produto" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FF07F97C-6610-27FB-6AAE-475157DAE47D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8DE42FE7-CB2E-7114-DFD0-BF26600E78F4" name="Cidade" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FF07F97C-6610-27FB-6AAE-475157DAE47D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="FCA97DCE-BB26-C82C-F5FA-438B0D4B52B5" name="Cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FF07F97C-6610-27FB-6AAE-475157DAE47D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="2A0BF914-19B0-6A76-86D2-1613605A1421" name="Fornecedor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FF07F97C-6610-27FB-6AAE-475157DAE47D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0080FB43-51E4-2B59-5097-3CF789357DDB" name="Pedido" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FF07F97C-6610-27FB-6AAE-475157DAE47D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="89CAA8B4-EEC5-5FAA-1010-156AED87D35B" name="Produto" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FF07F97C-6610-27FB-6AAE-475157DAE47D" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0080FB43-51E4-2B59-5097-3CF789357DDB" name="Pedido">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:19:59 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_pedido" id="4D197B38-CA0E-7ADE-6876-09F583F789A7">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:20:12 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pedido" id="E07AA804-67D4-B12E-88C4-7159D760FA11">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:20:32 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total" id="C11D7E21-5906-709E-34B3-E9C024897446">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:20:40 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="83E7490B-9F18-1C64-92EA-D86A12B360EB">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:20:47 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="377DED12-9A32-B44C-9310-748123675C82" name="Pedido PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:20:28 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D197B38-CA0E-7ADE-6876-09F583F789A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

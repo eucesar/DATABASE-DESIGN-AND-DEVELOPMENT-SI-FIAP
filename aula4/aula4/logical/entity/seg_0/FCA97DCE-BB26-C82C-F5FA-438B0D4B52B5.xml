@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCA97DCE-BB26-C82C-F5FA-438B0D4B52B5" name="Cliente">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:16:51 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="0166829F-7A53-E54F-2666-020197F2983C">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:16:58 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="52D805E8-3673-7075-E36C-FD32CDF94B89">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:17:07 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9FFAF7AE-AB6B-0B37-D2B5-464ECD5390C3">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:17:22 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="CA7CFB1B-6586-B762-C243-818BAD43FF69">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:17:34 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_1" id="2F0E5749-FE16-D257-2D8B-D81FC7043B0D">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:17:53 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="5F01E1FC-679F-33F6-0891-E1FCCFFEFE55">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:18:18 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="97E5D336-3C85-421E-D908-F51BC3C1604B">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:18:24 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="951FE495-F12F-68FC-4663-87B5E54BC987">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:19:13 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro" id="B8292E07-03EE-04D4-B7F5-1BE36865CE31">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:19:19 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comp" id="705AC83A-A761-38AF-8DF0-2517E0FAE861">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:19:23 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="3374B3AF-6D33-2CE7-5928-62B4C17E9A0C">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:19:29 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="0776C55C-FF85-4E15-1AC3-EFBEC22FD50C">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:19:34 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="3888C16F-0200-BE91-8D30-641216A71DBC">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:19:38 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13A5264D-F30E-1776-35A8-21F5B3C856C0" name="Cliente PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:18:51 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52D805E8-3673-7075-E36C-FD32CDF94B89</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9EB261AF-F17E-3220-D78D-F2D0B6736BA0" name="cpf_pk">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:29:12 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<newElementsIDs>9FFAF7AE-AB6B-0B37-D2B5-464ECD5390C3</newElementsIDs>
+<usedAttributes>
+<attributeRef>9FFAF7AE-AB6B-0B37-D2B5-464ECD5390C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

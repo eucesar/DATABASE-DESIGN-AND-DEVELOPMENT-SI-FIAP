@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DE42FE7-CB2E-7114-DFD0-BF26600E78F4" name="Cidade">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:37:17 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cidade" id="7EBDF6AC-6580-DF55-D295-7C3B8D1D6169">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:37:25 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="FCA8A31D-912E-60BD-0F84-247F650017D3">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:37:37 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="populacao" id="54A8E9BF-47BC-8E46-00CF-CA4488498561">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:37:41 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uf" id="9E333F6C-6948-ED13-E21D-24B6DD3C5494">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:37:49 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E75D63F-2309-83DA-213D-D72A4C67E7F7" name="Cidade PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:37:36 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7EBDF6AC-6580-DF55-D295-7C3B8D1D6169</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

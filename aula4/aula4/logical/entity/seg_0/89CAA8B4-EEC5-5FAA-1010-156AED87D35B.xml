@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89CAA8B4-EEC5-5FAA-1010-156AED87D35B" name="Produto">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:21:41 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_produto" id="61382A6B-38C3-18C7-6E0D-45A3AA7AFFDD">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:21:47 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="CD7F8253-0013-A051-69AC-90CD4AE39CD4">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:21:59 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="469C0AE4-DD81-BC79-5422-D1B70E8B26D0">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:22:41 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unidade" id="55BA7C6F-D195-E083-0FE2-DEA6C9CFE6B1">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:22:48 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="un_medida" id="CCF74228-E95B-B4B7-A168-2F5542B289F8">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:23:21 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="E4C712E7-0D65-B0DE-8FDD-8F5256C12BAF">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:30:57 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BBF180F-0A9F-A715-C0A3-3905E3B566E3" name="Produto PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-03-05 01:21:57 UTC</createdTime>
+<ownerDesignName>aula4</ownerDesignName>
+<engineerTo>
+<item key="92AB89F3-EB03-E7C1-9A39-DDD64CAE0D69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61382A6B-38C3-18C7-6E0D-45A3AA7AFFDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
