@@ -1,6 +1,7 @@
 <h1 align="center">Welcome to my Repositories 🤝</h1>
 <p>
   <img align="center" alt="BrModel" height="50" width="50" src="./brmodel.png">
+  <img align="center" alt="DataModeler" height="50" width="50" src="./datamodeler.png">
   <br>
 </p>
 
