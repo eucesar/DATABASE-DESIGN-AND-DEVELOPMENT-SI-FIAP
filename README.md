@@ -6,9 +6,9 @@
 </p>
 
 > 🌱👨‍💻 - 
-Launching a repository at FIAP for optimized codes in DATABASE DESIGN AND DEVELOPMENT. Sharing high-performance practices and exercises, this will be a valuable resource for reviews and collaborations, boosting my progress as a database systems developer.
+Initiating a repository at FIAP for optimized codes in DATABASE DESIGN AND DEVELOPMENT, a subject within the second year of the Systems Information course. Sharing high-performance practices and exercises, it serves as a valuable resource for reviews and collaborations, enhancing my growth as a database systems developer.
 
-Utilized Datamodeler and BRModel for data modeling. Each lesson's achievements are documented with a '.png' file showcasing the work completed.
+Utilized Datamodeler and BRModel for data modeling. Each lesson's accomplishments are visually represented in '.png' files within the repository.
 
 ## Download
 
